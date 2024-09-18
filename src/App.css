@@ -1,0 +1,55 @@
+navbar{
+    z-index: 9999;
+   
+   
+}
+.nav{
+    background-color: black;
+    box-shadow: 0 0 15px 15px;
+}
+
+.side{
+    background-color: rgb(141, 135, 135);
+    margin-top: 100px;
+}
+.rightside{
+    position: relative;
+    overflow: hidden;
+   margin-top: 20px;
+   
+}
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+@media only screen and (max-width:589px){
+    .rightside{
+        display: none;
+    }
+    .leftside{
+        width: 100% !important;
+    }
+}
+
+.headlineTitle{
+    position: fixed;
+    z-index: 2;
+   
+    right: 0;
+  width: 380px;
+  overflow: hidden;
+    
+}
+
+.topheadlinecontainer{
+  
+    position: absolute;
+    animation: move 100s linear infinite;
+ }
+ @keyframes move{
+    0%{
+        top: 10px;
+    }
+    100%{
+        top: -100%;
+    }
+ }
